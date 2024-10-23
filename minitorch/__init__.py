@@ -1,3 +1,5 @@
+"""Minitorch is a minimal and educational implementation of a neural network library in Python."""
+
 from .testing import MathTest, MathTestVariable  # type: ignore # noqa: F401,F403
 from .tensor_data import *  # noqa: F401,F403
 from .tensor import *  # noqa: F401,F403
