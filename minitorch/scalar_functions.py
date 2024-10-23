@@ -68,7 +68,7 @@ class Add(ScalarFunction):
 
     @staticmethod
     def forward(ctx: Context, a: float, b: float) -> float:
-        """Forward pass for the operation."""
+        """Add a and b together"""
         return a + b
 
     @staticmethod
